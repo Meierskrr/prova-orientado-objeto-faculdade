@@ -7,12 +7,7 @@ import models.*;
 
 public class Main {
 
-    /**
-     * LEIA - ME.
-     * O desenvolvedor começou a implementar a lógica, porem ele ainda não aprendeu
-     * a herança, polimorfismo e outros conceitos avançados de orientação a objetos.
-     * Por isso você deverá finalizar o que já foi começado.
-     */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -71,26 +66,3 @@ public class Main {
     }
 }
 
-/*
- * Pedido pedido = new Pedido();
- * boolean adicionarMaisItens = true;
- * 
- * 
- * do {
- * System.out.println("Digite o valor do item, exemplo: 5.99 ou 5,99");
- * double valor = utils.Utils.lerValorDouble();
- * System.out.println("Digite o peso do item, exemplo: 0.5 ou 0,5");
- * double peso = utils.Utils.lerValorDouble();
- * Item item = new Item(valor, peso);
- * // o incluirItem, parece que o método tem um erro, como se não tivesse feito
- * o new em alguma coisa, algo em relação ao itens.
- * // creio que tem haver com o .add do array ou lista de itens dentro do
- * pedido.
- * pedido.incluirItem(item);
- * } while (adicionarMaisItens);
- * 
- * System.out.println("Valor do pedido: " + pedido.calcularValorPedido());
- * 
- * // Agora é necessário calcular o frete com base no tipo de entrega.
- * System.out.println("Digite o tipo de entrega (PAC, SEDEX, Retida)");
- */
